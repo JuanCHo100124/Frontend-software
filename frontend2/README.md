@@ -3,6 +3,7 @@ Descripción:
 Este es el frontend de la aplicación de la libreria. Está desarrollado con React y permite gestionar libros y usuarios a través de una interfaz de usuario intuitiva. La aplicación se comunica con un backend para realizar operaciones CRUD sobre las entidades libros y usuarios.
 
 Características:
+
 Gestión de Libros:
 Crear, editar y eliminar libros.
 
