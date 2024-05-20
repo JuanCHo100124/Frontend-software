@@ -1,8 +1,24 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descripción:
+Este es el frontend de la aplicación de la libreria. Está desarrollado con React y permite gestionar libros y usuarios a través de una interfaz de usuario intuitiva. La aplicación se comunica con un backend para realizar operaciones CRUD sobre las entidades libros y usuarios.
 
-Currently, two official plugins are available:
+Características:
+Gestión de Libros:
+Crear, editar y eliminar libros.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gestión de Usuarios:
+Crear, editar y eliminar usuarios.
+
+Estructura del Código:
+
+src/components/librosComponents/:
+  - LibrosTable.jsx: Tabla
+  - LibrosForm.jsx: Formulario
+  - LibrosRow.jsx: Fila de la tabla
+
+src/components/UsuariosComponents/:
+  - UsuarioTable.jsx: Tabla
+  - UsuarioForm.jsx: Formulario 
+  - UsuarioRow.jsx: Fila de la tabla
+
+src/App.jsx: Componente principal de la aplicación.
